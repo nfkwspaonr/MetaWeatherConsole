@@ -1,12 +1,21 @@
 ﻿using System;
+using Autofac;
 
-namespace Main
+namespace MetaWeatherConsole
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var container = ContainerConfig.Configure();
+
+            using (var scope = container.BeginLifetimeScope())
+            {
+                var app = scope.Resolve<IApplication>();
+                app.Run();
+            }
+
+            Console.ReadLine();
         }
     }
 }

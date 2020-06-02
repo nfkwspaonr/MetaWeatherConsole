@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{7CF59F26-C034-4414-98E0-6A1181B8B7FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaWeatherLibrary", "MetaWeatherLibrary\MetaWeatherLibrary.csproj", "{03648B63-1834-488E-9D4E-53127B97CB6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7CF59F26-C034-4414-98E0-6A1181B8B7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF59F26-C034-4414-98E0-6A1181B8B7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CF59F26-C034-4414-98E0-6A1181B8B7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03648B63-1834-488E-9D4E-53127B97CB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03648B63-1834-488E-9D4E-53127B97CB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03648B63-1834-488E-9D4E-53127B97CB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03648B63-1834-488E-9D4E-53127B97CB6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
