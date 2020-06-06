@@ -26,12 +26,9 @@ namespace MetaWeatherLibrary
 
         private async Task RunAPICallAsync()
         {
-            var request = new HttpRequestMessage(HttpMethod.Get,
-                "https://www.metaweather.com/api/location/656958/");
+            var client = _HttpClientFactory.CreateClient("location");
 
-            var client = _HttpClientFactory.CreateClient();
-
-            var response = await client.SendAsync(request).ConfigureAwait(false);
+            var response = await client.SendAsync(new HttpRequestMessage(HttpMethod.Get, "656958")).ConfigureAwait(false);
 
             if (response.IsSuccessStatusCode)
             {

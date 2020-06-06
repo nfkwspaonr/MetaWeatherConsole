@@ -11,6 +11,8 @@ namespace Main
         {
             //serviceCollection.AddLogging();
             serviceCollection.AddHttpClient();
+            serviceCollection.AddHttpClient("location",
+                c => c.BaseAddress = new Uri("https://www.metaweather.com/api/location/"));
         }
     }
 }
