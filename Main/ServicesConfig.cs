@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Main
@@ -13,6 +11,8 @@ namespace Main
             serviceCollection.AddHttpClient();
             serviceCollection.AddHttpClient("location",
                 c => c.BaseAddress = new Uri("https://www.metaweather.com/api/location/"));
+            serviceCollection.AddHttpClient("search",
+                c => c.BaseAddress = new Uri("https://www.metaweather.com/api/location/search/"));
         }
     }
 }

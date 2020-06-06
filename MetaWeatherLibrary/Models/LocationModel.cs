@@ -2,7 +2,7 @@
 
 namespace MetaWeatherLibrary.Models
 {
-    public class MetaWeatherModel
+    public class LocationModel
     {
         public Consolidated_Weather[] Consolidated_weather { get; set; }
         public string Latt_long { get; set; }
