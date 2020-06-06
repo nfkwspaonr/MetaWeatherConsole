@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MetaWeatherLibrary.Models
+﻿namespace MetaWeatherLibrary.Models
 {
-
     public class SearchQueryItem
     {
         public string Title { get; set; }

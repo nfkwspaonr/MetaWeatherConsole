@@ -1,8 +1,4 @@
-﻿using System;
-using System.Net.Http;
-using System.Reflection;
-using Autofac;
-using Autofac.Extensions.DependencyInjection;
+﻿using Autofac;
 using MetaWeatherLibrary;
 
 namespace MetaWeatherConsole
