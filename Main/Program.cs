@@ -6,7 +6,9 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World v1!");
+
+            Console.WriteLine("Hello World v2!");
         }
     }
 }
